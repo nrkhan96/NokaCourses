@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{738AE12B-E6D6-47B7-A53D-AD0417C8745A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4E108334-7CBE-47AE-AE99-E31C3F0FD899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NokaCourses.Web", "src\UI\NokaCourses.Web\NokaCourses.Web.csproj", "{036A6734-E91C-41B2-925A-863BF3042064}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NokaCourses.Web.SystemTests", "test\NokaCourses.Web.SystemTests\NokaCourses.Web.SystemTests.csproj", "{FD7866C6-476D-4035-85F0-0430D2FAFB6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NokaCourses.Web.UnitTests", "test\NokaCourses.Web.UnitTests\NokaCourses.Web.UnitTests.csproj", "{45939F32-E3DB-4124-8B4F-61856D69DFCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{036A6734-E91C-41B2-925A-863BF3042064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{036A6734-E91C-41B2-925A-863BF3042064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{036A6734-E91C-41B2-925A-863BF3042064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{036A6734-E91C-41B2-925A-863BF3042064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD7866C6-476D-4035-85F0-0430D2FAFB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7866C6-476D-4035-85F0-0430D2FAFB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7866C6-476D-4035-85F0-0430D2FAFB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7866C6-476D-4035-85F0-0430D2FAFB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45939F32-E3DB-4124-8B4F-61856D69DFCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45939F32-E3DB-4124-8B4F-61856D69DFCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45939F32-E3DB-4124-8B4F-61856D69DFCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45939F32-E3DB-4124-8B4F-61856D69DFCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{036A6734-E91C-41B2-925A-863BF3042064} = {738AE12B-E6D6-47B7-A53D-AD0417C8745A}
+		{FD7866C6-476D-4035-85F0-0430D2FAFB6F} = {4E108334-7CBE-47AE-AE99-E31C3F0FD899}
+		{45939F32-E3DB-4124-8B4F-61856D69DFCD} = {4E108334-7CBE-47AE-AE99-E31C3F0FD899}
+	EndGlobalSection
+EndGlobal
